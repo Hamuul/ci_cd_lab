@@ -22,7 +22,7 @@ jobs:
 
       # TODO 01 - Add a step to run tests
       - name: Run tests
-        run: go run main_test.go
+        run: go test
 
   compile:
     runs-on: ubuntu-latest
