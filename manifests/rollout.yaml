@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/hamuul/ci_cd_lab:latest
+          image: ghcr.io/hamuul/ci_cd_lab@sha256:7cac9d354b43a4f968764c99690c5da15ece2756c8079f52d70094e69eeb377d
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
